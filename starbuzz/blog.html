@@ -66,8 +66,16 @@
               controls
               width="512"
               height="288"
-              src="video/tweetsip.webm"
-            ></video>
+              poster="/starbuzz/images/poster.png"
+              id="video"
+              
+            >
+              <source src="/starbuzz/video/tweetsip.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'/>
+              <source src="/starbuzz/video/tweetsip.ogv" type='video/ogv; codecs="theora, vorbis"'/>
+              <source src="/starbuzz/video/tweetsip.webm" type='video/webm; codecs="vp8, vorbis"'/>
+              <object></object>
+              <p>Извините, ваш браузер не поддерживает элемент <video></p>
+            </video>
           </article>
           <article>
             <header>
